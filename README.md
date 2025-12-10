@@ -15,7 +15,7 @@ Edge Detection script overview:<br>
     - Clusters nearby anchor points, keeping the best-scoring most consistent one<br>
   - Selects the top 4 vertex candidates based on score and consistency<br>
   - Extracts the longest edge between candidate vertices and the edge opposite to it<br>
-### AUTOMATED EDGE DETECTION (above) FAILS FOR EXTREME CASES, SO CURRENTLY DEVELOPING A BETTER USER INTERFACE TO MANUALLY SELECT VERTICES ###<br><br>
+--- AUTOMATED EDGE DETECTION (above) FAILS FOR EXTREME CASES, SO CURRENTLY DEVELOPING A BETTER USER INTERFACE TO MANUALLY SELECT VERTICES ---<br><br>
 
 Binning script overview:<br>
   - Vertical binning: Intersects tangents from one edge to the other, spaced at a defined width in μm<br>
