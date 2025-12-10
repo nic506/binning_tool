@@ -5,8 +5,8 @@ Merging script overview:
   - Dilates input ROIs to decrease gaps between boundaries  
   - Generates a binary PNG mask, merging nearby ROIs  
   - Erosion of mask to counteract dilation, restoring approx original size  
-  - Converts PNG mask to single ROI  
-<br>  
+  - Converts PNG mask to single ROI
+  
 Edge Detection script overview:  
   * Assumes: (1) Rois are rectangle-like polygons (4 rough vertices), (2) binning is desired along longest edge and its opposite edge  
   - For each ROI anchor point:  
