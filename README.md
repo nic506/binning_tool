@@ -1,4 +1,4 @@
-Script run order: (1) Merging -> (2) Edge detection -> (3) Binning<br>
+Script run order: (1) Merging -> (2) Edge detection -> (3) Binning<br><br>
 
 Merging script overview:  
   - Dilates input ROIs to decrease gaps between boundaries  
