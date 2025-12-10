@@ -19,7 +19,7 @@ Edge Detection script overview:<br>
 --- AUTOMATED EDGE DETECTION (above) FAILS FOR EXTREME CASES, SO CURRENTLY DEVELOPING A BETTER USER INTERFACE TO MANUALLY SELECT VERTICES ---<br><br>
 
 Binning script overview:<br>
-  - Vertical binning: Intersects tangents from one edge to the other, spaced at a defined width in μm<br>
+  - Vertical (only) binning: Intersects tangents from one edge to the other, spaced at a defined width in μm<br>
   - Vertical + Horizontal binning: Divides each vertical bin horizontally into an equal number of segments<br>
-  - Horizontal binning: Combines vertical bins within the same horizontal band<br>
+  - Horizontal (only) binning: Combines vertical bins within the same horizontal band<br>
   - Outputs a .zip file containing all bin ROIs<br><br>
